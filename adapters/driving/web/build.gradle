@@ -1,0 +1,19 @@
+ext {
+
+    spring_boot_version = '2.0.0.RELEASE'
+    vertx_version = '3.5.1'
+    jsr250_version = '1.0'
+    javax_inject_version = '1'
+}
+
+dependencies {
+
+    compile group: 'org.springframework.boot', name: 'spring-boot', version: spring_boot_version
+    compile group: 'org.springframework.boot', name: 'spring-boot-autoconfigure', version: spring_boot_version
+
+    compile group: 'io.vertx', name: 'vertx-core', version: vertx_version
+    compile group: 'io.vertx', name: 'vertx-web', version: vertx_version
+
+    compile group: 'javax.inject', name: 'javax.inject', version: javax_inject_version
+    compile group: 'javax.annotation', name: 'jsr250-api', version: jsr250_version
+}

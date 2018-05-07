@@ -1,0 +1,3 @@
+rootProject.name = 'webapp_example'
+include 'adapters/driving/web'
+
